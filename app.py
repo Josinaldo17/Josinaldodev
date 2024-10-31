@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/home')
 def index():
-    return 'é o programação na prática'
+    return render_template('index.html')
 
 @app.route('/sobremim')
 def sobremim():
