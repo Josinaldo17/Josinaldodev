@@ -1,0 +1,132 @@
+@media only screen and (min-height: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 2%;
+        margin: 0%;;
+    }
+}
+/* 340px */
+@media only screen and (max-width: 440px){
+
+    .site-main .site-banner .site-title h4 {
+        background-color: rgba(165, 42, 42, 0);
+        font-size: 1rem;
+    }
+    .site-main .site-banner .banner-image > img {
+        width: 250px;
+        position: absolute;
+        margin-top: -400px;
+        margin-left: 300px;
+        z-index: -1;
+    }
+    .site-main .about-area-home img {
+        padding-top: 1rem;
+    }
+    .site-main .about-area-home {
+        padding: 0;
+        width: 145%;
+        margin-bottom: 100px;
+    }
+    .site-main .services-area .services-title h1 {
+        font-size: 35px;
+        letter-spacing: 10px;
+        text-align: center;
+    }
+    
+    *, ::after, ::before {
+        /* box-sizing: border-box; */
+    }
+    .site-main .about-area .about-title{
+        text-align: center;
+    }
+    h2.titulo-skill {
+        font-size: 30px;
+    }.site-main .services-area .row .services {
+
+        margin: 5rem 0 .5rem 0;
+    }    
+    .site-main .trabalhos-recentes .services-title {
+        /* padding: 0rem 14rem; */
+    }
+    .site-main .trabalhos-recentes .services-title h1 {
+        /* font-size: 35px; */
+        letter-spacing: 7px;
+    }
+    
+    .title-text {
+        font: normal bold 50px / 52px var(--roboto);
+    }
+    p.parag {
+        padding-top: 20px;
+    }
+    .site-main .trabalhos-recentes {
+        /* padding: 0rem 2rem; */
+        /* margin-bottom: 8rem; */
+    }
+    
+    *, ::after, ::before {
+        /* box-sizing: border-box; */
+    }
+
+    .site-main .trabalhos-recentes {
+        /* padding: 0rem 2rem; */
+    }
+    
+
+}
+
+
+/* 340px */
+@media only screen and (max-width: 340px){
+
+    .site-main .site-banner .site-title h4 {
+        background-color: rgb(22, 121, 109);
+        font-size: 1.3rem;
+    }
+    .site-main .services-area{
+        padding: 2%;
+        margin: 0%;;
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+    .site-main .site-area .services{
+        width: 13rem;
+    }
+}
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+}
+
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+}
