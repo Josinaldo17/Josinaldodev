@@ -1,10 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask, redirect, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def teste():
-    return '<h1>olaaaa</h1>'
+    return redirect('/home')
     
 @app.route('/home')
 def index():
