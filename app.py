@@ -17,3 +17,4 @@ def sobremim():
 @app.route('/projetos')
 def projetos():
     return render_template('trabalhos.html')
+
