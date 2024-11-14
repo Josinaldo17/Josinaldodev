@@ -40,7 +40,7 @@ strong{
     
 }
 .header_area .main-menu .nav-item .nav-link{
-	font: normal 500 15px/2px var(--roboto);
+	font: normal 500 15px/2px var(--roboto), sans-serif;
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -107,7 +107,7 @@ strong{
 .site-main .about-area-home .about-title h2 > span{
 	display: block;
     text-align: center;
-	font: normal bold 49px/60px var(--roboto);
+	font: normal bold 49px/60px var(--roboto), sans-serif;
 	letter-spacing: 21px;
 }
 
@@ -134,7 +134,7 @@ footer.footer-area img{
 
 }
 footer.footer-area .rodapefinal .social h5{
-	font: normal 500 18px/30px var(--roboto);
+	font: normal 500 18px/30px var(--roboto), sans-serif;
 }
 footer.footer-area .rodapefinal .col-md-4 a > i{
 	font-size: 27px;
@@ -160,7 +160,7 @@ footer.footer-area .rodapefinal p{
 .site-main .about-area .about-title h2 > span{
 	display: block;
     text-align: center;
-	font: normal bold 49px/60px var(--roboto);
+	font: normal bold 49px/60px var(--roboto), sans-serif;
 	letter-spacing: 21px;
 }
 
@@ -174,7 +174,7 @@ footer.footer-area .rodapefinal p{
 h2.titulo-skill {
     display: block;
     text-align: center;
-    font: normal bold 49px/60px var(--roboto);
+    font: normal bold 49px/60px var(--roboto), sans-serif;
     letter-spacing: 11px;
     color: transparent;
     background: linear-gradient(90deg,  #ffffff, #ffffff,  #ffffff,  #000000,  #ffffff, #ffffff);
