@@ -13,18 +13,14 @@
         font-size: 1rem;
     }
     .site-main .site-banner .banner-image > img {
-        width: 250px;
-        position: absolute;
-        margin-top: -400px;
-        margin-left: 300px;
-        z-index: -1;
+        display: none;
     }
     .site-main .about-area-home img {
         padding-top: 1rem;
     }
     .site-main .about-area-home {
         padding: 0;
-        width: 145%;
+        width: 100%;
         margin-bottom: 100px;
     }
     .site-main .services-area .services-title h1 {
@@ -34,14 +30,25 @@
     }
     
     *, ::after, ::before {
-        /* box-sizing: border-box; */
+        box-sizing: content-box;
     }
     .site-main .about-area .about-title{
         text-align: center;
     }
     h2.titulo-skill {
         font-size: 30px;
-    }.site-main .services-area .row .services {
+    }
+
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+    }
+    
+        
+    .site-main .site-banner .site-title h1{
+        font-size: 3rem;
+    }    
+    .site-main .services-area .row .services {
 
         margin: 5rem 0 .5rem 0;
     }    
@@ -65,13 +72,19 @@
     }
     
     *, ::after, ::before {
-        /* box-sizing: border-box; */
+         box-sizing: border-box; 
     }
 
     .site-main .trabalhos-recentes {
         /* padding: 0rem 2rem; */
     }
-    
+
+    .site-main .about-area-home .about-title h2 > span {
+        font: normal bold 15px/25px var(--roboto), sans-serif ;
+
+    }
+
+
 
 }
 
