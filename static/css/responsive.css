@@ -115,7 +115,8 @@
     .site-main .services-area .row .services {
         padding: 0rem 0;
         margin: 5rem 0 .5rem 0;
-        height: auto;
+        height: auto;        
+        width: 300px;
     }
 
     .site-main .trabalhos-recentes .services-title h1 {
@@ -140,7 +141,6 @@
         background: linear-gradient(to bottom, transparent 50%, #00000082 50%);
         padding-bottom: 20px;
     }
-
 
     .site-main .services-area {
         margin-bottom: 60px;
@@ -226,7 +226,7 @@
     }
 
     .container {
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .site-main .brand-area,
