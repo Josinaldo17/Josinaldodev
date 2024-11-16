@@ -1,145 +1,237 @@
-@media only screen and (min-height: 340px){
+@media only screen and (min-height: 340px) {
+
     .header_area .main-menu .navbar,
-    .header_area .main-menu .navbar .navbar-brand{
+    .header_area .main-menu .navbar .navbar-brand {
         padding: 2%;
-        margin: 0%;;
+        margin: 0%;
+        ;
     }
 }
-/* 340px */
-@media only screen and (max-width: 440px){
+
+/* 440px */
+@media only screen and (max-width: 440px) {
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .header_area .main-menu .navbar img {
+        position: absolute;
+        padding: 20px;
+        top: 0px;
+        left: 10px;
+    }
+
+    .header_area .main-menu .navbar {
+        border-bottom: solid 1px #14131396;
+    }
+
+    .header_area .main-menu .nav-item .nav-link {
+        text-align: center;
+        font: inherit;
+        text-transform: uppercase;
+        padding: 10px;
+        color: var(--title-color);
+    }
+
+    .header_area .main-menu .navbar p {
+        font: inherit;
+    }
 
     .site-main .site-banner .site-title h4 {
         background-color: rgba(165, 42, 42, 0);
         font-size: 1rem;
     }
-    .site-main .site-banner .banner-image > img {
+
+    .site-main .site-banner .banner-image>img {
         display: none;
     }
+
+
     .site-main .about-area-home img {
         padding-top: 1rem;
     }
+
     .site-main .about-area-home {
         padding: 0;
         width: 100%;
         margin-bottom: 100px;
     }
+
+    .site-main .about-area-home .about-title .bio>p {
+        font-family: inherit;
+        padding: 20px 0 0px;
+    }
+
     .site-main .services-area .services-title h1 {
         font-size: 35px;
         letter-spacing: 10px;
         text-align: center;
     }
-    
-    *, ::after, ::before {
-        box-sizing: content-box;
+
+    .site-main .site-banner .site-title h4 {
+        margin-top: -20px;
     }
-    .site-main .about-area .about-title{
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+
+
+    .site-main .about-area .about-title {
         text-align: center;
     }
+
     h2.titulo-skill {
         font-size: 30px;
     }
 
-    .img-fluid {
-        max-width: 80%;
+
+    .site-main .site-banner .site-title h1 {
+        font-size: 3rem;
+    }
+
+    .site-main .services-area {
+        padding: 0rem 0rem;
+    }
+
+    .site-main .about-area .about-title h2>span {
+        font: inherit;
+    }
+
+    h2.titulo-skill {
+        font-family: "inherit";
+    }
+
+
+    .site-main .services-area .row .services:hover {
+        transform: none;
+    }
+
+
+    .site-main .services-area .row .services {
+        padding: 0rem 0;
+        margin: 5rem 0 .5rem 0;
         height: auto;
     }
-    
-        
-    .site-main .site-banner .site-title h1{
-        font-size: 3rem;
-    }    
-    .site-main .services-area .row .services {
 
-        margin: 5rem 0 .5rem 0;
-    }    
-    .site-main .trabalhos-recentes .services-title {
-        /* padding: 0rem 14rem; */
-    }
     .site-main .trabalhos-recentes .services-title h1 {
-        /* font-size: 35px; */
         letter-spacing: 7px;
     }
-    
+
     .title-text {
-        font: normal bold 50px / 52px var(--roboto);
+        font: normal bold 50px / 52px arial;
     }
+
     p.parag {
         padding-top: 20px;
+        font: inherit;
     }
-    .site-main .trabalhos-recentes {
-        /* padding: 0rem 2rem; */
-        /* margin-bottom: 8rem; */
+
+    .site-main .about-area-home .about-title h2>span {
+        font: normal bold 15px/25px "inherit";
+
     }
-    
-    *, ::after, ::before {
-         box-sizing: border-box; 
+
+    footer {
+        background: linear-gradient(to bottom, transparent 50%, #00000082 50%);
+        padding-bottom: 20px;
+    }
+
+
+    .site-main .services-area {
+        margin-bottom: 60px;
+    }
+
+    .site-main .trabalhos-recentes .row .services {
+        padding: 0rem 0;
+        width: 23rem;
+        height: auto;
+        margin: 1rem .0rem;
+    }
+
+    .site-main .trabalhos-recentes .services-title {
+        padding: 3rem 1em 0rem;
+    }
+
+    .site-main .trabalhos-recentes .services-title p {
+        font-size: 20px;
+    }
+
+    .site-main .trabalhos-recentes .row .services {
+        width: 300px;
+    }
+
+    .container {
+        max-width: 100%;
     }
 
     .site-main .trabalhos-recentes {
-        /* padding: 0rem 2rem; */
+        padding: 0rem 0rem;
     }
-
-    .site-main .about-area-home .about-title h2 > span {
-        font: normal bold 15px/25px var(--roboto), sans-serif ;
-
-    }
-
 
 
 }
 
 
 /* 340px */
-@media only screen and (max-width: 340px){
+@media only screen and (max-width: 340px) {
 
     .site-main .site-banner .site-title h4 {
         background-color: rgb(22, 121, 109);
         font-size: 1.3rem;
     }
-    .site-main .services-area{
+
+    .site-main .services-area {
         padding: 2%;
-        margin: 0%;;
+        margin: 0%;
+        ;
     }
-    .site-main .site-banner .site-title h1{
+
+    .site-main .site-banner .site-title h1 {
         font-size: 41px;
     }
 
-    .site-main .site-area .services{
+    .site-main .site-area .services {
         width: 13rem;
     }
 }
-@media only screen and (max-width: 792px){
-    .site-main .about-area .about-title h2 > span{
+
+@media only screen and (max-width: 792px) {
+    .site-main .about-area .about-title h2>span {
         font-size: 31px;
         letter-spacing: 10px;
     }
 
-    .site-main .brand-area .experience-area .years-area{
+    .site-main .brand-area .experience-area .years-area {
         padding-left: 1%;
         width: 49%;
     }
 
-    .site-main .brand-area .experience-area .call-area{
+    .site-main .brand-area .experience-area .call-area {
         padding-left: 3%;
     }
 
-    .site-main .about-area .about-title p{
+    .site-main .about-area .about-title p {
         padding: 0%;
     }
 }
 
-@media only screen and (max-width: 1910px){
-    .header_area .main-menu .navbar{
+@media only screen and (max-width: 1910px) {
+    .header_area .main-menu .navbar {
         padding: 1rem;
     }
 
-    .container{
-        max-width: 90%;
+    .container {
+        max-width: 100%;
     }
 
     .site-main .brand-area,
     .site-main .services-area .services-title,
-    .site-main .about-area{
+    .site-main .about-area {
         padding: 3% 4%;
     }
 }

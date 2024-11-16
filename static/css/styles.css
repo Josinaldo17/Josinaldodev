@@ -271,7 +271,7 @@ h2.titulo-skill {
 
 .site-main .trabalhos-recentes{
 	padding: 0rem 2rem;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
 }
 
 .site-main .trabalhos-recentes .services-title{
@@ -291,13 +291,11 @@ h2.titulo-skill {
 	width: 23rem;
     height: 50rem;
 	margin: 5rem .5rem;
-	transition: transform .4s ease;
 }
 
 .site-main .trabalhos-recentes .row .services:hover{
-	box-shadow: var(--box-shadow);    
-	transform: scale(1.1);
-    
+	border-image: linear-gradient(to top, #ffffff, #7a24ba, #31e1ff, #000000) 1; ;
+
 }
 .site-main .trabalhos-recentes .row .services img{
     width: 250px;
