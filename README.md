@@ -4,6 +4,9 @@
 
 Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e formas de contato. Este site foi criado com foco em simplicidade, organização e fácil navegação, servindo tanto para recrutadores quanto para clientes que desejam conhecer meu trabalho.
 
+[![Blog](https://img.shields.io/website?label=Josinaldodev.com&style=for-the-badge&url=https://sujeitoprogramador.com/)](https://josinaldodev.com)
+<br>👆
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
